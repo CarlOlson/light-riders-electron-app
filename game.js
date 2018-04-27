@@ -1,5 +1,9 @@
 
-let results = require('./resultfile.json');
+const path = require('path')
+const argv = require('electron').remote.process.argv;
+const resultFile = path.join(__dirname, argv[2]);
+const results = require(resultFile);
+
 results.game = JSON.parse(results.game);
 results.details = JSON.parse(results.details);
 

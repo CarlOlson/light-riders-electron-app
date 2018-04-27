@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+wget -P img    https://storage.googleapis.com/riddles-production/lightriders-frontend-v10/img/background.png
+wget -P img    https://storage.googleapis.com/riddles-production/lightriders-frontend-v10/img/endscreen.png
+wget -P vendor https://storage.googleapis.com/riddles-production/lightriders-frontend-v10/js/app.js
+wget -P vendor https://storage.googleapis.com/riddles-production/lightriders-frontend-v10/css/style.css
+wget -P vendor https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+wget -P fonts  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff
+wget -P fonts  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2
